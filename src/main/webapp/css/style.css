@@ -1,0 +1,55 @@
+body {
+
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    min-height: 500px;
+    min-width: 500px;
+    max-height: 500px;
+    max-width: 500px;
+}
+
+.mainDiv {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.downloadButton {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.downloadButton > * {
+    margin-bottom: 10px;
+    width: fit-content;
+}
+
+.loaddiv {
+    width: 400px;
+    heighr: 70px;
+    padding: 20px;
+    border: 1px #ccc;
+    background: azure;
+    margin: 0 auto;
+
+}
+
+.loadedImg {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+
+#forOutImage, #forInImage {
+    vertical-align: top;
+    border: 2px solid grey;
+    padding: 10px;
+    background: azure;
+}
+
